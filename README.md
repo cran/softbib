@@ -9,14 +9,24 @@ and BibTeX formats. Bibliographies can be printed in thousands of
 styles, using CSL files downloaded from the [Zotero style
 repository.](https://www.zotero.org/styles)
 
+> Arel-Bundock, Vincent, and Joshua McCrain. 2023. “Software Citations
+> in Political Science.” PS: Political Science & Politics, April, 1–4.
+> <https://doi.org/10.1017/S1049096523000239>.
+
 ## Installation
 
-Install the development version of `softbib`:
+``` r
+install.packages("softbib")
+```
+
+Or you can install the development version of `softbib`:
 
 ``` r
 library(remotes)
 install_github("vincentarelbundock/softbib")
 ```
+
+Make sure you restart `R` for the change to take effect.
 
 ## Getting started
 
